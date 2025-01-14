@@ -1,0 +1,14 @@
+.box-search {
+  position: relative;
+}
+
+.box-search .box-suggest-songs {
+  position: absolute;
+  top: 40px;
+  width: 300px;
+  display: none;
+}
+
+.box-search .box-suggest-songs.show {
+  display: block;
+}
