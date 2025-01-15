@@ -7,8 +7,9 @@ import { IoMdTime } from "react-icons/io";
 import { CiMusicNote1 } from "react-icons/ci";
 import { FaAssistiveListeningSystems } from "react-icons/fa";
 
-import "aplayer/dist/APlayer.min.css";
+// "@ts-expect-error"
 import APlayer from "aplayer";
+import "aplayer/dist/APlayer.min.css";
 
 import { Col, Image, Row } from "antd";
 
