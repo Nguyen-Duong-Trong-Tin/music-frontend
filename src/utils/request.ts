@@ -1,6 +1,9 @@
 import axios from "axios";
+
+// const baseUrl = "http://localhost:3000/api/v1";
+const baseUrl = `https://music-backend-sigma.vercel.app/api/v1`;
+
 import cookieHelper from "../helpers/cookie";
-const baseUrl = "http://localhost:3000/api/v1";
 
 const get = async <T>(params: string): Promise<T> => {
   const accessToken = cookieHelper.get("accessToken");
